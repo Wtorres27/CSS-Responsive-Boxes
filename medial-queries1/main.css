@@ -1,3 +1,54 @@
 body {
-  background: blanchedalmond;
+  background: rgb(237, 237, 237);
+  text-align: center;
+  font-size: 5em;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.a {
+  flex-grow: 1;
+  background: rgb(216, 216, 216);
+  margin: 0.5em;
+}
+
+.b {
+  flex-grow: 4;
+  min-height: 30vw;
+  background: rgb(216, 216, 216);
+  margin: 0.5em;
+}
+
+.c {
+  flex-grow: 1;
+  background: rgb(216, 216, 216);
+  margin: 0.5em;
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .a {
+    width: 100vw;
+  }
+
+  .b {
+    width: 40vw;
+  }
+  .c {
+    width: 15vw;
+  }
+}
+* {
+  border: 1px solid rgb(158, 158, 158);
+  font-family: cursive;
 }
