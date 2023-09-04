@@ -1,3 +1,86 @@
 body {
-  background: peachpuff;
+  background: rgb(237, 237, 237);
+  font-size: 5em;
+
+  height: 100vh;
+  margin: 0.2em;
+}
+.container {
+  display: flex;  
+  flex-direction: column;  
+  justify-content: space-between;  
+  min-height: 100vh; 
+}
+.aside {
+
+  display: flex;  
+  flex-direction: column; 
+  flex-grow: 3;  
+  justify-content: space-between; 
+  align-items: center;  
+  min-height: 70vh
+}
+main{
+
+}
+
+.a {
+  background-color: rgb(158, 158, 158);
+  margin: 0.2em;
+ min-width: 90vw;
+ min-height: 25vh;
+}
+.b {
+  background-color: rgb(158, 158, 158);
+  margin: 0.2em;
+  width: 15vw;
+  height: 15vh;
+}
+.c {
+  background-color: rgb(158, 158, 158);
+  margin: 0.2em;
+  width: 15vw;
+  height: 15vh;
+}
+.d {
+  width: 15vw;
+  height: 15vh;
+  background-color: rgb(158, 158, 158);
+  margin: 0.2em;
+}
+.e {
+  width: 15vw;
+  height: 15vh;
+  background-color: rgb(158, 158, 158);
+  margin: 0.2em;
+}
+.d {
+  background-color: rgb(158, 158, 158);
+  margin: 0.2em;
+  width: 15vw;
+  height: 15vh;
+}
+.e {
+  width: 15vw;
+  height: 15vh;
+    background-color: rgb(158, 158, 158);
+  margin: 0.2em;
+}
+.f {
+  width: 15vw;
+  height: 15vh;
+  background-color: rgb(158, 158, 158);
+  margin: 0.2em;
+}
+.g {
+  width: 15vw;
+  height: 15vh;
+  background-color: rgb(158, 158, 158);
+  margin: 0.2em;
+}
+.h {
+  background-color: rgb(158, 158, 158);
+  margin: 0.2em;
+  height: 60vh;
+  width: 30VW;
 }

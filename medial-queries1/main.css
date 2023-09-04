@@ -15,20 +15,20 @@ body {
 .a {
   flex-grow: 1;
   background: rgb(216, 216, 216);
-  margin: 0.5em;
+  margin: 0.2em;
 }
 
 .b {
   flex-grow: 4;
   min-height: 30vw;
   background: rgb(216, 216, 216);
-  margin: 0.5em;
+  margin: 0.2em;
 }
 
 .c {
   flex-grow: 1;
   background: rgb(216, 216, 216);
-  margin: 0.5em;
+  margin: 0.2em;
 }
 
 @media (min-width: 600px) {
