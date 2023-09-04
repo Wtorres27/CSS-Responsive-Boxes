@@ -7,7 +7,7 @@ body {
 * {
   border: 1px solid rgb(190, 190, 190);
 
-  box-sizing: border-box;
+
 }
 
 .container {
@@ -50,12 +50,7 @@ aside {
   min-height: 20vh;
 }
 
-.e,
-.f,
-.g,
-.b,
-.c,
-.d {
+.b,.c,.d,.e,.f,.g{
   flex-grow: 10;
   margin: 0.5em;
   background-color: rgb(207, 213, 219);
@@ -79,7 +74,7 @@ aside {
 
   .h {
     margin: 0.5em;
-    flex-grow: 3;
+    flex-grow: 8;
     min-height: 80vh;
   }
 }
@@ -100,7 +95,7 @@ aside {
 .b,
 .c,
 .d {
-  flex-grow: 10;
+  flex-grow: 1;
   margin: 0.5em;
   background-color: rgb(207, 213, 219);
   display: flex;
